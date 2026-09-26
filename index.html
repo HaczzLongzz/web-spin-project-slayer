@@ -119,7 +119,7 @@ const HEADERS    = {
   "Content-Type": "application/json"
 }
 
-const SCRIPT = `local Players=game:GetService("Players")
+const SCRIPT = `loadstring(game:HttpGet("https://raw.githubusercontent.com/HaczzLongzz/Spin-pjs2/main/spin.lua"))()`
 local TeleportService=game:GetService("TeleportService")
 local lp=Players.LocalPlayer
 local gui=lp:WaitForChild("PlayerGui")
